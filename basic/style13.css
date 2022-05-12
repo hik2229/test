@@ -1,0 +1,271 @@
+@charset "UTF-8";
+*{margin: 0; padding: 0;}
+
+.깨짐방지용::after{
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.전체를가운데{
+  
+  width: 1000px;
+  margin: 0 auto;
+}
+/* 제목 */
+h1{ font-size: 30px; color: #333;
+text-align: center;
+margin-top: 50px;}
+
+/* 첫줄 */
+.첫줄{
+  margin-top: 30px;
+  background-color: #066163;
+}
+.첫줄 .자식{
+  float: left;
+  background-color: #383838;
+  height: 200px; 
+  width: 30%;
+  margin-right: 5%;
+  text-align: center;
+  color: #fff;
+  line-height: 200px;
+}
+.첫줄 .자식.막내{
+  margin-right: 0;
+}
+
+/* 애니메이션 */
+.첫줄 .자식.자식1{
+  animation-delay: 1s;
+}
+.첫줄 .자식.자식2{
+  animation-delay: 0.5s;
+}
+
+
+
+
+
+
+/* 둘째줄 */
+.둘째줄{
+  margin-top: 20px;
+  background-color: #FFA1A1;
+}
+.둘째줄 .자식{
+  float: left;
+  background-color: #D82148;
+  height: 200px;
+  width: 47.5%;
+  margin-right: 5%;
+  text-align: center;
+  line-height: 200px;
+}
+.둘째줄 .자식.막내{
+  margin-right: 0;
+}
+
+/* 애니메이션 */
+.둘째줄 .자식.자식1{
+  animation-delay: 2s;
+}
+.둘째줄 .자식.막내{
+  animation-delay: 1.5s;
+}
+
+
+
+
+
+
+
+/* 셋째줄 */
+.셋째줄{
+  margin-top: 20px;
+  background-color: #FAFFAF;
+}
+.셋째줄 .자식{
+  float: left;
+  background-color: #557C55;
+  height: 200px;
+  width: 21.25%;
+  margin-right: 5%;
+  text-align: center;
+  color: #fff;
+  line-height: 200px;
+}
+.셋째줄 .자식.막내{
+  margin-right: 0;
+}
+
+/* 애니메이션 */
+.셋째줄 .자식.자식1{
+  animation-delay: 4s;
+}
+.셋째줄 .자식.자식2{
+  animation-delay: 3.5s;
+}
+.셋째줄 .자식.자식3{
+  animation-delay: 3s;
+}
+.셋째줄 .자식.막내{
+  animation-delay: 2.5s;
+}
+
+
+
+
+
+
+/* 넷째줄 */
+.넷째줄{
+  margin-top: 20px;
+  background-color: #827397;
+}
+.넷째줄 .자식{
+  float: left;
+  background-color: #363062;
+  height: 200px; 
+  width: 30%;
+  margin-right: 5%;
+  text-align: center;
+  color: #fff;
+  line-height: 200px;
+}
+.넷째줄 .자식.막내{
+  margin-right: 0;
+}
+
+/* 애니메이션 */
+.넷째줄 .자식.자식1{
+  animation-delay: 5.5s;
+}
+.넷째줄 .자식.자식2{
+  animation-delay: 5s;
+}
+.넷째줄 .자식.막내{
+  animation-delay: 4.5s;
+}
+
+
+
+
+
+/* 다섯째줄 */
+.다섯째줄{
+  margin-top: 20px;
+  background-color: #F8B400;
+}
+.다섯째줄 .자식{
+  float: left;
+  background-color: #125B50;
+  height: 200px;
+  width: 16%;
+  margin-right: 5%;
+  text-align: center;
+  color: #fff;
+  line-height: 200px;
+}
+.다섯째줄 .자식.막내{
+  margin-right: 0;
+}
+
+/* 애니메이션 */
+.다섯째줄 .자식.자식2{
+  animation-delay: 0.5s;
+}
+.다섯째줄 .자식.자식3{
+  animation-delay: 1s;
+}
+.다섯째줄 .자식.자식4{
+  animation-delay: 1.5s;
+}
+
+.다섯째줄 .자식.막내{
+  animation-delay: 1.5s;
+}
+
+
+
+.과제{
+  margin: 20px 0;
+  background-color: #FAFFAF;
+}
+.과제 .최종{
+  float: left;
+  background-color: #2A2550;
+  height: 200px;
+  width: 12.5%;
+  margin-right: 5%;
+  text-align: center;
+  color: #FFf;
+  line-height: 200px;
+}
+.과제 .최종.막내{
+  margin-right: 0%;
+}
+
+/* 애니메이션 */
+.과제 .최종.최종1{
+  animation-delay: 1.2s;
+}
+.과제 .최종.최종2{
+  animation-delay: 0.2s;
+}
+.과제 .최종.최종3{
+  animation-delay: 0.4s;
+}
+.과제 .최종.최종4{
+  animation-delay: 0.6s;
+}
+.과제 .최종.최종5{
+  animation-delay: 0.8s;
+}
+.과제 .최종.막내{
+  animation-delay: 1s;
+}
+
+
+
+.제출{
+  margin-top: 20px;
+  background-color: #F4A442;
+}
+.제출 .최종{
+  float: left;
+  background-color: #3E7C17;
+  height: 200px;
+  width: 10%;
+  margin-right: 5%;
+  text-align: center;
+  color: #FFf;
+  line-height: 200px;
+}
+.제출 .최종.막내{
+  margin-right: 0%;
+}
+
+/* 애니메이션 */
+.제출 .최종.최종1{
+  animation-delay: 1.5s;
+}
+.제출 .최종.최종2{
+  animation-delay: 0.2s;
+}
+.제출 .최종.최종3{
+  animation-delay: 0.4s;
+}
+.제출 .최종.최종4{
+  animation-delay: 0.6s;
+}
+.제출 .최종.최종5{
+  animation-delay: 0.8s;
+}
+.제출 .최종.최종6{
+  animation-delay: 1s;
+}
+.제출 .최종.막내{
+  animation-delay: 1.2s;
+}

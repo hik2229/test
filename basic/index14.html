@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    *{margin: 0; padding: 0;}
+  .정씨집안{position: relative; padding-top: 50px; height: 100vh; background-color: #000;}
+  .정장손{width: 600px; padding: 20px; margin: 0 auto 0; background-color: #666;}
+  .정첫째{
+    position: relative; 
+    background-color: cornflowerblue;}
+  .정첫째 .정일자{position:relative; width: 150px; height: 150px; background-color: darksalmon;
+    z-index: 20;}
+  .정첫째 .정이자{width: 150px; height: 150px; 
+    position: absolute;
+    left: 0; top: 100px;
+    z-index: 10;
+
+    background-color: darkseagreen;} 
+  .정첫째 .정삼자{position: relative; width: 150px; height: 150px; background-color: paleturquoise;}
+  
+  </style> 
+</head>
+<body>
+  <div class="정씨집안">
+    <div class="정장손">
+      <div class="정첫째">
+        <div class="정일자">정일자</div>
+        <div class="정이자">정이자</div>
+        <div class="정삼자">정삼자</div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

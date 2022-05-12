@@ -1,0 +1,48 @@
+*{margin: 0;padding: 0;}
+.약::after{
+    content: "";
+    clear: both;
+    display: block;
+}
+.이떡배{
+    /* 부모의 공간을 모두 차지 display: block*/
+    background-color: #8D8DAA;
+    width: 800px;
+    margin: 0 auto;
+}
+.이떡배 .이장남{
+    background-color: #DFDFDE;
+    
+}
+.이떡배 .이장남 .손자{
+    background-color: #acd3b1;
+    width: 30%;
+    height: 200px;
+    float: left;
+    margin-right: 5%;
+    padding: 20px;  /* 위, 오, 아, 왼 */
+    border: 10px solid rgb(245, 150, 139);
+    box-sizing: border-box;
+    /* 넓이값:30% + 20px + 20px + 10px +10px */
+    margin-bottom: 20px;
+
+}
+.이떡배 .이장남 .손자.막내{
+    margin-right: 0;
+}
+
+
+
+.이떡배 .이차남{
+    background-color: #e4809b;
+}
+.이떡배 .이차남 .손자{
+    background-color: royalblue;
+    width: 21.25%;
+    height: 200px;
+    float: left;
+    margin-right: 5%;
+}
+.이떡배 .이차남 .손자.막내{
+    margin-right: 0;
+}
